@@ -1,0 +1,1 @@
+# Globomantics CRM app
