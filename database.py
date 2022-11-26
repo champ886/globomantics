@@ -35,6 +35,6 @@ class Database:
         acct = self.data.get(acct_id)
         if acct:
             bal = float (acct["due"]) - float (acct["paid"])
-            return f"$ {bal:.4f}"
+            return f"US$ {bal:.4f}"
             #return int (acct["due"]) - int (acct["paid"])
         return None
